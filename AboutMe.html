@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="myWebsite.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+        <title>About Me</title>
+
+    </head>
+    <body onload="typeWriter()">
+        <h1 class="Title" id="demo"><u></u></h1>
+        
+        <p class="text w3-animate-opacity delay"> 
+            <span class="tab"></span>Hello there! I am a 13-year-old boy who loves to code and learn new things! 
+            My coding journey started 5 years ago at the age of 8 when I discovered Scratch.
+        </p>
+        <p class="text w3-animate-opacity delay">
+            <span class="tab"></span>I fell in love with the platform. Seeing that I spent more time on Scratch than sleeping, my parents enrolled me in a class teaching Python. 
+            My love for coding only grew and turned into a passion. From Python, I discovered Roblox Studio and learned its language, Lua. With the help of a relative, 
+            I learned Java. Around this time, I upgraded my old 2020 computer. Taking advantage of its power, I started to use Unity for 
+            Reinforcement Learning and learned C#.
+        </p>
+        <p class="text w3-animate-opacity delay">        
+            <span class="tab"></span>Another one of my passions is volunteering. Mahatma Gandhi once said, <i>"You must be the change you wish to see in the world."</i> From a young age, I have always wanted to give back to the community.
+            At 10 years old, I joined my school's leadership program. Last year, I joined my city's youth council.In October, an elementary student was almost hit by a car while crossing the road that separated our community from the nearby school.
+            In order to solve this, alongside other worried community members, I started a petition to install a stop
+            sign where students would cross. Using my position in the council, I managed to bring the Mayor's attention to this matter. Because of this, the petition was quickly passed and a 
+            stop sign is currently being planned for installation.
+        </p>
+        <p class="text w3-animate-opacity delay">   
+            <span class="tab"></span>Volunteering and coding have always been equally important to me. Because of this, 
+            I thought, <i>"why not do both!"</i> To accomplish this, I started learning HTML, CSS, 
+            and JavaScript. And that is how this website was developed! If you are interested in hiring me to code something, click the button below!
+        </p> 
+            <form action="Voluenteer.html">
+                <div class="button1">
+            </form>
+            <button class="Buttons">Volunteer Services</button>
+            </div>
+           
+
+           
+        
+        </p>
+        <p class="text">Thank you for visiting!</p> 
+        <p class="text">
+           Sincerely, Chethan Nair
+        </p>
+        <script>
+            var i = 0;
+            var txt = 'About Me'; /* The text */
+            var speed = 100; /* The speed/duration of the effect in milliseconds */
+
+            function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("demo").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+            }
+        </script> 
+        
+        
+    </body>
+</html>
