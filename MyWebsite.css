@@ -1,0 +1,144 @@
+body{
+    background-image: url("Website4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+
+}
+.w3-animate-opacity{
+    transition-delay: 2s;
+}
+.small{
+    font-size: 0.6em;
+    font-weight: normal;
+}
+.Title{
+    color: rgb(208, 208, 231);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5rem;
+    text-align: center;
+    
+}
+.Button{
+    
+    display: flex !important;
+    background-color: rgba(248, 253, 253, 0.966);
+    opacity: 0.8;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    /*width: 100%;*/
+}
+.Buttons{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+.Video{
+    
+  display: block;
+  margin: 0 auto;
+  width: 80%; 
+  border-radius: 8px;
+  border-color: rgb(111, 111, 163);
+ 
+
+
+
+}
+.AI{
+    color: rgb(111, 111, 163);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.delay{
+    animation-delay: 5s;
+    animation-fill-mode: backwards;
+}
+.text{
+    color: rgb(167, 167, 228);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    text-align: center;
+}
+.tab{
+    display:inline-block;
+    margin-left: 40px;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+   
+}
+@view-transition {
+  navigation: auto;
+}
+.textBox{
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    caret-color: white;
+  
+
+    
+}
+.mouse:hover{
+    caret-color: white;
+    
+}
+.form{
+    margin: 10px, 0;;
+    border-bottom: 1px gray;
+    flex-direction: column;
+    cursor: pointer;
+}
+.text1{
+    color: rgb(111, 111, 163);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.button2{
+    background-color: transparent;
+    font-size: large;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+.mouse1{
+    cursor: text;
+}
+.large{
+    font-size: large;
+}
+.Work{
+    display: flex !important;
+    opacity: 0.8;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: rgb(111, 111, 163);
+}
+.work{
+    display: flex !important;
+    opacity: 0.8;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+.padding{
+    padding: 30px;
+}
+.Delay{
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
