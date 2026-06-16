@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+        <title>Volunteer Services</title>
+        <link rel="stylesheet" href="myWebsite.css">
+    </head>
+    <body onload="typeWriter()">
+        <h2 class="Title" id="you"></h2>
+        <script>
+                var i = 0;
+                var txt = 'Ill Code for You'; /* The text */
+                var speed = 70; /* The speed/duration of the effect in milliseconds */
+
+                function typeWriter() {
+                if (i < txt.length) {
+                    document.getElementById("you").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                }
+                }
+
+        </script> 
+        <hr class="Title w3-animate-opacity Delay">
+        
+        <h3 class="Title w3-animate-opacity Delay">Why Choose Me?</h5>
+        <p class="text w3-animate-opacity Delay">
+            I can code for you in Python, Java, HTML, CSS, or Javascript for Web Development. I code using VS Code and 
+            which makes it easy to code and to test. Additionally, I can also do accessability testing to make sure all people can visit and access your site.
+         </p>
+        <div class="w3-animate-opacity delay large">
+            <form action="https://script.google.com/macros/s/AKfycbzCY499FEoExqGtEc6ADXBBD-Wy2OQ5cp3LP1Fb1D4tR-e_QqDLKQ3UgIBAdDo_0QQRdQ/exec" method="post" class="text1" class="" id="vForm">
+                <p>You must be 13 or older to fill out this form</p>
+                <div>
+                    <label for="Name">Name of Non-Profit or Orgagnization</label>
+                    <input type="text" name="Name" class="textBox form mouse">
+                </div>
+                <div>
+                    <label for="Email">Email</label>
+                    <input type="text" name="Email" class="textBox form ">
+                </div>
+                <div>
+                    <h3><u>Catagory</u></h3>
+                    <div>
+                        <input type="radio" name="Purpose" value="Web" class="form">
+                        <label for="Web">Web Development</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="Purpose" value="Access" class="form">
+                        <label for="Access">Accessability Testing</label>
+                    </div>
+                    <div>   
+                        <input type="radio" name="Purpose" value="Other" class="form">
+                        <label for="Other">Other</label>
+                    </div> 
+                
+                    
+                </div>
+                <div>
+                    <p><label for="Task" class="mouse" style="width: 300px; height: 40px;">Please explain your Project</label></p>
+                    <textarea name="Task" class="mouse mouse1 textBox" rows="6" cols="70">Write a short introduction about your non-profit. Then write about what your project is and its purpose.
+                    </textarea>
+                </div>
+                <div>
+                    <input type="radio" name="nonProfit" value="non-profit">
+                    <label for="non-profit"><b>"This project is strictly for a registered non-profit, charity, or school and generates revenue solely through charitable donations (not commercial merchandise or paid services).</b></label>
+                </div>
+                <div>
+                    <input type="radio" name="nonProfit" value="for-profit">
+                    <label for="for-profit">This project does is NOT for a registered non-profit, charity, or shchool and does NOT generate revenue solely through charitable donations(not commercial merchandise or paid services)</label>
+                </div>
+                <div style="text-align: center;">
+                    <button type="submit" class="Buttons large">Submit</button>
+                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                </div>
+
+                <p style="font-size: xx-small;">*Due to labor laws in the United States, I can only voluenteer for Non-Profit Orgagnizations. If you are not a Non-Profit please email me at
+                chethansnair@gmail.com
+            </form>
+                <p class="text">Once you hit "submit", you will be taken to a page which says result success. If you are not, please email me at chethansnair@gmail.com.</p>
+        </div>
+        <p id="submitM" style="align-items: center;">
+            
+        </p>
+        
+        
+        
+         <footer style="margin-top: 50px; padding: 20px; font-size: 12px; color: #666; text-align: center; border-top: 1px solid #eee;">
+                <p>© 2026 Student Coding Portfolio by Chethan Subin Nair. All projects and code samples displayed or delivered via this site are provided strictly <strong>"AS-IS"</strong>, without warranty of any kind, express or implied.</p>
+                <p>In no event shall the developer or their parent/guardian be liable for any claims, damages, or other liability arising from the use or hosting of this software.</p>
+        </footer>
+        
+          
+         
+    </body>
+
+</html>
