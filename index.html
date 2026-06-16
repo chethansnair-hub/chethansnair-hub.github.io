@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+        <link rel="stylesheet" href="myWebsite.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+        <!--<script src="myWebsite.js" defer></script>-->
+        <title>Chethan Nair</title>
+    </head>
+    <body onload="typeWriter(); setTimeout(typeWriter1, 1400)">
+">     
+            <h1 id="demo" class="Title"></h1>
+            <!--<h1 class="Title" id="code"></h1>-->
+            <style>
+                .delay{
+                    animation-delay: 1.9s;
+                    animation-fill-mode: backwards;
+                }
+                .delayB{
+                    animation-delay: 2.5s;
+                    animation-fill-mode: backwards;
+                }
+            </style>
+            <h1 class="Title" id="Code"></h1>
+            <div class="Button">
+                <form action="AboutMe.html">
+                <button class="Buttons w3-animate-opacity delay">About Me</button>
+                </form>
+                <form action="Voluenteer.html">
+                <button class="Buttons w3-animate-opacity delay">Voluenteer Services</button> 
+                </form>
+                <form action="Reference.html">
+                <button class="Buttons w3-animate-opacity delay">References</button>
+                </form>
+            
+            </div>
+            <h2 class="w3-animate-opacity delay Title">Some of My Work</h2>
+            <div class="Work w3-animate-opacity delay">
+                <div class="work">
+                    <p class="text"><u>Reinforced Learning Block Project</u></p>
+                <img src="block.png" alt="A blue and grey block. The blue block is a Machine Learning Agent and the grey block is its target. " style="width: 400px; height: 300px;" class="padding">
+                </div>
+                <div class="work">
+                    <p class="text"><u>Rasberry Pi LED Project</u></p>
+                    <video width="500" height="400" controls autoplay muted>
+                    <source src="Video.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="work">
+                    <p class="text"><u>Java Store Simulation</u></p>
+                    <div class="work">
+                        <img src="Shop.png" alt="The image shows a digital menu of a shop in Windows Command Prompt" style="width: 400px; height: 300px;" class="padding">
+                    </div>
+                </div>
+
+            </div>
+            <h2 style="text-align: center;" class="text w3-animate-opacity delay"><u>This Website</u></h2>
+            <div class="Work w3-animate-opacity delay">
+                
+                <div class="work">
+                    <img src="Code5.png" alt="The CSS Script Used to create this Website" class="padding">
+                </div>
+    
+    
+                <div class="work">
+                    <img src="Code2.png" alt="The Main HTML Script Used to Create this Website" class="padding">
+                </div>
+            </div>
+           
+    
+            <script>
+                var i = 0;
+                var txt = 'My name is Chethan'; /* The text */
+                var speed = 70; /* The speed/duration of the effect in milliseconds */
+
+                function typeWriter() {
+                if (i < txt.length) {
+                    document.getElementById("demo").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                }
+                }
+            </script> 
+            <script>
+                var q = 0;
+                var txt1 = 'And I`ll Code For You';
+                function typeWriter1() {
+                if (q < txt1.length) {
+                    document.getElementById("Code").innerHTML += txt1.charAt(q);
+                    q++;
+                    setTimeout(typeWriter1, speed);
+                }
+                }
+            </script>
+        
+        
+        
+            
+                
+            </script> 
+            <footer style="margin-top: 50px; padding: 20px; font-size: 12px; color: #666; text-align: center; border-top: 1px solid #eee;">
+                <p>© 2026 Chethan Nair. All projects and code samples displayed or delivered via this site are provided strictly <strong>"AS-IS"</strong>, without warranty of any kind, express or implied.</p>
+                <p>In no event shall the developer or their parent/guardian be liable for any claims, damages, or other liability arising from the use or hosting of this software.</p>
+            </footer>
+
+    
+        
+
+    
+    </body>
+        
+      
+       
+        
+    
+
+</html>
