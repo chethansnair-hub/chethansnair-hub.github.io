@@ -26,6 +26,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-size: 3.5rem;
     text-align: center;
+    word-wrap: break-word; 
     
 }
 .Button{
