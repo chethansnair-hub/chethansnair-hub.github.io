@@ -5,7 +5,14 @@ body{
     font-size: 1rem;
 }
 
-
+.Title{
+    color: rgb(208, 208, 231);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5rem;
+    text-align: center;
+    word-wrap: break-word; 
+    
+}
 @media (max-width: 600px) {
   h1 {
     font-size: 1.5rem; /* Smaller heading size on mobile devices */
@@ -21,14 +28,7 @@ body{
     font-size: 0.6em;
     font-weight: normal;
 }
-.Title{
-    color: rgb(208, 208, 231);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 3.5rem;
-    text-align: center;
-    word-wrap: break-word; 
-    
-}
+
 .Button{
     
     display: flex !important;
