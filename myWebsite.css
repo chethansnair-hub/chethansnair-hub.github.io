@@ -59,7 +59,8 @@ body{
     border: none;
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
-     word-wrap: break-word; 
+    word-wrap: break-word; 
+    
 }
 .Video{
     
@@ -174,3 +175,6 @@ video {
   height: auto;
 }
 
+a{
+    text-decoration: none;
+}
