@@ -48,7 +48,7 @@ body{
     justify-content: space-between;
     align-items: center;
     border: none;
-     word-wrap: break-word; 
+    word-wrap: break-word; 
     /*width: 100%;*/
 }
 .Buttons{
@@ -177,4 +177,12 @@ video {
 
 a{
     text-decoration: none;
+}
+.flex{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Button3{
+    background-color: transparent;
 }
