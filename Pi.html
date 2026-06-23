@@ -5,18 +5,26 @@
 </head>
 <body onload="typeWriter()">
     <h1 class="Title" id="A"></h1>
-    <div>
+    
     <p class="w3-animate-opacity delay text">I did this project to learn hardware. I unfortunetly dismanteled this project and only have
-        one video of it. However, using circuit simulating software, I can recreate the project using an Audrino.  
+        one video of it. However, using circuit simulating software, I can recreate the project using an Audrino. I have done many projects
+        with the Rasberry Pi including one with a seven-segment-display which I unfortunetly did not take a photo of.
         </p>
-        <img src="Circiut.png" alt="A Simulation close the circuit shown above">
+    <div class="flex1">
+        <img src="Chart.png" alt="Circuit schematic diagram from Tinkercad titled 'Dazzling Bruticus-Kup'. It features an Arduino Uno R3 microcontroller centrally positioned and wired to six LEDs arranged in pairs: two green LEDs, two blue LEDs, and two red LEDs. Each LED is connected in series with an individual 1k-ohm current-limiting resistor (labeled R1 through R6). The cathodes of all LEDs route to a common ground (U1_GND), while the anodes connect back to the digital I/O pins of the Arduino to allow sequential blinking control." style="width: 750px; height: 500px;">
+        <img src="Circ.png" alt="The Circuit and Code showed in the schematic" style="width: 750px; height: 500px;">
     </div>
-    <div class="Video1">
-        <video src="Video.mp4" autoplay muted style="width: 800px; height: 600px;" class="padding"></video>
+    <div class="flex1">
+        <video width="750px" height="500px" controls class="padding">
+        <source src="Video.mp4" type="video/mp4">
+        <source src="Video.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
     </div>
-    <p class="w3-animate-opacity delay text">This project was created for the purpose of presenting in my school science fair. It is safe to say it worked <br>
-    as I was one of three to be promoted to district. Below is a chart showing the number of times the agent touches the target at specific time points.</p>
-    <img src="Stats.png" alt="A line graph titled Hits vs. Time tracking the growth of hits over a 2-hour period, divided into 10-minute intervals. The y-axis ranges from 0 to 800 hits, and the x-axis displays time. The data shows an exponential-like growth curve: 10 min to 40 min: Hits start near 0 and rise very slowly, staying under 25. 50 min to 1 hour: Hits rise slightly from around 30 to roughly 70. 1 hr 10 min to 1 hr 30 min: Growth begins to accelerate, moving from about 80 hits to 220 hits. 1 hr 40 min to 1 hr 50 min: The curve continues upward, reaching approximately 340 hits and then 410 hits. 2 hours: A sharp final spike brings the total to approximately 650 hits." class="padding">
+
+   
+        
+    
     
 </body>
 <script>
